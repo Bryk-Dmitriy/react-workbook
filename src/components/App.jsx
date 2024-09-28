@@ -7,6 +7,9 @@ import { Card } from './Product';
 import { Alert } from "./Alert";
 import { AlertVanilla } from './Alert';
 import { UserMenu } from './Alert';
+import { Listener } from './Listener';
+import { Reactivity } from './Reactivity';
+import { ComponentLifecycle } from './ComponentLifecycle';
 
 export default function App() {
   return (
@@ -50,6 +53,9 @@ export default function App() {
       <AlertVanilla>Lorem</AlertVanilla>
       <UserMenu name='Mango'></UserMenu>
     </>
+      <Listener/>
+      <Reactivity/>
+      <ComponentLifecycle/>
     </div>
   );
 }
