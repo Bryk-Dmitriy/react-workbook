@@ -10,6 +10,8 @@ import { UserMenu } from './Alert';
 import { Listener } from './Listener';
 import { Reactivity } from './Reactivity';
 import { ComponentLifecycle } from './ComponentLifecycle';
+import  LoginForm  from './Form';
+import HttpUsing from './httpUsing';
 
 export default function App() {
   return (
@@ -56,6 +58,8 @@ export default function App() {
       <Listener/>
       <Reactivity/>
       <ComponentLifecycle/>
+      <LoginForm/>
+      <HttpUsing/>
     </div>
   );
 }
